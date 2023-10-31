@@ -1,9 +1,0 @@
-{
-  "scripts": {
-    "start": "npx tailwindcss -i ./src/css/input.css  -o ./src/css/output.css --watch",
-    "server": "php -S localhost:5000 -t \"M:\\GCECT\\Project Exam Question Paper Downloader\\Design\\src\""
-  },
-  "dependencies": {
-    "tailwindcss": "^3.3.3"
-  }
-}
