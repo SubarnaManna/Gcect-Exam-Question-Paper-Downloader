@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($username === $validUsername && $password === $validPassword) {
         $_SESSION["user_id"] = $username; // Store the username in the session
         header("Location: uploader.php"); // Redirect to the dashboard page
-        exit();
+        // exit();
     } else {
         echo "Invalid credentials. Please try again.";
     }
